@@ -1,0 +1,402 @@
+a{
+  text-decoration: none;
+  color: white;
+}
+body{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+button{
+  padding: 17px 35px;
+  border: none;
+  color: #833556;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 700;
+  text-align: center;
+line-height: 1;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.input{
+  width: 100%;
+  max-width: 100%;
+height: calc(1.5em + 0.75rem + 2px);
+padding: 0.375rem 0.75rem;
+}
+h1{
+  font-size: 5.5rem;
+  font-weight: bold;
+}
+hr{
+margin: 1rem 0;
+color: inherit;
+background-color: currentColor;
+border: 0;
+opacity: .25;
+}
+
+ #first-section{
+  padding-bottom: 115px
+}
+
+/* Background image slideshow */
+.firstdiv{
+  padding: 16px 50px 10px 20px;
+  background-image: url("https://cgmimiraclecentre.org/wp-content/uploads/2021/10/THMC-2.jpg");
+  background-repeat: no-repeat;
+background-size:100% 100%;
+position: relative;
+background-position: center;
+animation: change 20s infinite ease-in-out;
+}
+@keyframes change{
+  0%
+  {
+    background-image: url("https://cgmimiraclecentre.org/wp-content/uploads/2021/06/Bishop-1024x683.jpg");
+  }
+  25%{
+    background-image: url("https://cgmimiraclecentre.org/wp-content/uploads/2021/06/Bishop-1024x683.jpg");
+  }
+  50%{
+    background-image: url("https://cgmimiraclecentre.org/wp-content/uploads/2021/06/IMG-20210617-WA0000.jpg");
+  }
+  75%{
+    background-image: url("https://cgmimiraclecentre.org/wp-content/uploads/2021/10/THMC-2.jpg");
+  }
+  100%{
+    background-image: url("https://scontent.fabb1-2.fna.fbcdn.net/v/t1.6435-9/131008886_3433190556810786_7174956511679145120_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeF1Ik6W8T_1ui08o0uaEwAcVKOxSO1H3GRUo7FI7UfcZEtuUOhW-6JMBILMKkYkwRHx-58ZO3JTsdZK2WICMgxY&_nc_ohc=H6qf4dryBoQAX-i5YjN&_nc_ht=scontent.fabb1-2.fna&oh=00_AT-_Z5Gl5LERNyV0y5JJLAledhr1PSP-6dyMQUbtheLBAg&oe=632819BF");
+  }
+}
+
+
+ul.navbar-nav a:hover { color: coral !important; }
+nav{
+  padding: 75px 75px 75px 100px;
+}
+#navbarTogglerDemo01 ul li a {
+    color:rgb(102 33 94);
+  }
+
+.partner{
+  background-color:white;
+  color:purple;
+}
+.first-section-content{
+  color: #fff;
+  line-height: 8;
+padding: 60px 70px 0;
+font-weight:
+}
+
+
+.readmore{
+  padding: 10px 20px;
+  color: purple;
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.readmore:hover{
+  color: purple;
+}
+
+
+/* Images Section */
+#images-section{
+  background-image: linear-gradient(gray, gray, white);
+  padding: 0 100px 40px;
+}
+.image{
+  width: 100%;
+  height: 100%;
+}
+.images-column{
+  padding: 5px;
+}
+.images-row{
+  padding-bottom: 20px;
+  position: relative;
+}
+
+/* Phone Section */
+.phone-section{
+  background: linear-gradient(to bottom right, purple 50%, white 50%);
+padding: 60px 40px;
+position: relative;
+
+}
+.download-div{
+  padding-top: 40px;
+}
+.download-center{
+  background-color: white;
+  color: purple;
+  padding: 10px 20px;
+}
+
+.phone-row{
+  background-image: linear-gradient(to bottom right, purple 50%, white 50%);
+  margin:auto;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0.12);
+}
+
+.phone-text{
+  color: #ffffff;
+}
+.phone-text-column{
+  padding: 50px ;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.the-phone{
+  width: 183px;
+  height:378px;
+}
+
+.lazy{
+padding: 40px;
+}
+
+
+/* Section Three */
+#section-three{
+  background-image: linear-gradient(to top left, purple, purple, violet);
+padding: 100px 0 0;
+}
+
+.row section-three-div{
+
+}
+.row section-three-row{
+
+}
+.section-three-text{
+  color: #fff;
+  width: auto;
+}
+
+/* Grid Section */
+#grid-section{
+
+}
+.core-value{
+  color: #fff;
+padding: 0;
+}
+.value1{
+  background-color: #8a375a;
+  opacity: 0.7;
+}
+.value2{
+  background-color: #8a375a;
+  opacity: 0.8;
+}
+.value3{
+  background-color: #833556;
+  opacity: 0.9;
+}
+.value4{
+  background-color: #833556;
+}
+
+
+/* Christ Life Section */
+#Christ-life{
+  background-color: purple;
+  padding: 35px 10px 100px;
+}
+.christ-life-row{
+  padding: 10px;
+}
+.christ-life-image{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0.12);
+}
+.christ-life-column{
+  padding: 5px;
+}
+
+/* Video-Section */
+#video-section{
+  background-image: linear-gradient(purple, white, white);
+  padding: 0 100px 40px;
+}
+.video{
+  width: 400px;
+  height: 400px;
+}
+
+/* Study and Prayer Guide Section */
+#{
+
+}
+
+.study-paragraph{
+  color: #cab9dd;
+}
+.d-grid{
+  color: white;
+}
+
+/* Testimonial */
+#testimonial{
+  background-color: purple;
+  text-align: center;
+}
+.testimonial{
+  background-color: purple;
+}
+.testimonial-paragraph{
+  background-image: linear-gradient(to bottom left, pink, purple);
+  padding: 20px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0.12);
+
+}
+.testimonial-row{
+  padding:30px 100px;
+  color: white;
+}
+.testimonial-logo{
+  width: 70px;
+  height: 70px;
+}
+.testimonial-button-row{
+
+}
+/* Footer */
+#footer{
+  background-color: black;
+}
+
+.footer{
+  color: #ffffff;
+  padding: 50px 20px;
+}
+.info{
+  text-decoration: underline;
+  color: #ffd0b3;
+}
+.info:hover{
+  color: coral;
+}
+.podcast{
+  text-align: center;
+}
+.podcast a {
+  text-decoration: none;
+  color: white;
+}
+.pd:hover{
+  color: coral;
+}
+.footer-title{
+  font-weight: 400;
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+.copyright{
+  color:rgba(255,255,255,0.83);
+  padding: 10px 0 20px;
+}
+
+
+/* About Page */
+about-section{
+    padding-bottom: 115px;
+}
+
+/* History */
+
+/* blockquote */
+.blockquotediv{
+  width: 70%;
+  padding: 1.2em;
+  margin : 1.5em 1em 1.5em 3rem;
+  font-size: 1.1em;
+  font-style: italic;
+  line-height: inherit;
+  border-left: 5px solid;
+  color: rgb(0 0 0 / 65%)
+}
+.papa-history-img{
+  float: left;
+}
+
+
+/* Media/download page */
+#navbarTogglerDemo01 ul li a {
+  color:rgb(102 33 94);
+}
+.btn{
+  font-weight: 700;
+}
+a{
+text-decoration: none;
+color: blue;
+}
+.form-wrap{
+  padding: 20px 5px;
+
+}
+
+.a:hover{
+text-decoration: underline;
+}
+
+/* page-numbers navigatiion */
+.page-numbers{
+display: block;
+font-size: 14px;
+font-weight: 600;
+}
+.pagination li  {
+border: 1px solid;
+color:blue;
+}
+.media{
+  display: inline-block;
+}
+.downloadcontainer{
+  padding: 10px 50px;
+}
+.dm{
+  width: 100%;
+max-width: 100%;
+}
+.dm2{
+  padding: 0.375rem 1.75rem;
+  font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #495057;
+vertical-align: middle;
+}
+
+
+/* Live Page */
+#mission-section{
+  padding: 50px 0;
+}
+
+.livestream{
+  font-weight: 600;
+  font-size:2em;
+  color: rgb(22, 37, 68) solid 1px !important;
+  margin-bottom: 0.5em;
+}
+.live-column{
+  padding: 10px;
+}
+.livecontainer{
+  padding: 7em 5em;
+}
+
+.yt{
+  margin-top: 60px;
+}
+.twitch{
+  margin-top: 120px;
+}
